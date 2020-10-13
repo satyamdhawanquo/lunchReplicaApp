@@ -23,15 +23,16 @@ const styles = StyleSheet.create({
     middleBarContainer: {
         flexDirection: "row",
         justifyContent: "space-between",
-        paddingHorizontal: 25
+        paddingHorizontal: 25,
+        marginBottom: 12
     },
     bold: {
         color: '#10111C',
-        // fontFamily: "Circular Std",
+        fontFamily: "Circular Std",
         fontSize: 16,
         fontWeight: "500",
         letterSpacing: 0,
-        lineHeight: 14
+        lineHeight: 14,
     }
 });
 

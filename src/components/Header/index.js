@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
         width:'100%',
         resizeMode:"contain",
         justifyContent:"center",
-        height:300,
+        height: 300
     }
 });
 

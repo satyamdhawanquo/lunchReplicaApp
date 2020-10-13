@@ -49,8 +49,8 @@ function getRandomColor() {
 
 const styles = StyleSheet.create({
   rounderContainer: {
-    height: 27,
-    width: 27,
+    height: 23,
+    width: 23,
     backgroundColor: getRandomColor(),
     borderRadius: 50,
     justifyContent:"center",

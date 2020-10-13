@@ -22,6 +22,8 @@
 		EE8E6D40ECFC1B07E2B0B54C /* libPods-lunchReplica-lunchReplicaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8738076024B6DFC166FDA90 /* libPods-lunchReplica-lunchReplicaTests.a */; };
 		93F6D0DBA99E4A9DB65FCE6B /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27845C928C2A4494B2513387 /* CircularStd-Medium.otf */; };
 		5599F87184384B50BB848A58 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04005C50944140749C3BC172 /* OpenSans-Bold.ttf */; };
+		1DCCB1421B474600B2556D2F /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE6ACA64A49D48D4BDEB0474 /* OpenSans-Regular.ttf */; };
+		5244D43C0D954F248C7D9EAB /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1CAC96D20C847DFB9042E15 /* OpenSans-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		27845C928C2A4494B2513387 /* CircularStd-Medium.otf */ = {isa = PBXFileReference; name = "CircularStd-Medium.otf"; path = "../assets/fonts/CircularStd-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		04005C50944140749C3BC172 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; name = "OpenSans-Bold.ttf"; path = "../assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FE6ACA64A49D48D4BDEB0474 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; name = "OpenSans-Regular.ttf"; path = "../assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C1CAC96D20C847DFB9042E15 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "OpenSans-SemiBold.ttf"; path = "../assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +212,8 @@
 			children = (
 				27845C928C2A4494B2513387 /* CircularStd-Medium.otf */,
 				04005C50944140749C3BC172 /* OpenSans-Bold.ttf */,
+				FE6ACA64A49D48D4BDEB0474 /* OpenSans-Regular.ttf */,
+				C1CAC96D20C847DFB9042E15 /* OpenSans-SemiBold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -359,6 +365,8 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				93F6D0DBA99E4A9DB65FCE6B /* CircularStd-Medium.otf in Resources */,
 				5599F87184384B50BB848A58 /* OpenSans-Bold.ttf in Resources */,
+				1DCCB1421B474600B2556D2F /* OpenSans-Regular.ttf in Resources */,
+				5244D43C0D954F248C7D9EAB /* OpenSans-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
