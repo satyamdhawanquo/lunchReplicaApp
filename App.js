@@ -12,12 +12,14 @@ import Header from './src/components/Header'
 import Card from './src/components/Card';
 import MiddleBar from './src/components/MiddleBar'
 import List from './src/components/List';
+import TopBar from './src/components/TopBar';
 import {View,StyleSheet} from 'react-native';
 const App = () => {
   return (
     <>
     <View style={styles.container}>
       <Header>
+        <TopBar />
         <Card />
       </Header>
       <MiddleBar />

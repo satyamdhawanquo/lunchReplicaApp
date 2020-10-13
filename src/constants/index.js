@@ -1,3 +1,3 @@
 const lunchesNearYou = 'Lunches Near You';
-
-export {lunchesNearYou};
+const titleLine = 'Discussion about design and technology ecosystem';
+export {lunchesNearYou, titleLine};
