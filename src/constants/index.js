@@ -1,3 +1,5 @@
 const lunchesNearYou = 'Lunches Near You';
 const titleLine = 'Discussion about design and technology ecosystem';
-export {lunchesNearYou, titleLine};
+const getDirection = 'Get Directions';
+const location = 'Panaro\'s Restaurant';
+export {lunchesNearYou, titleLine, getDirection, location};
