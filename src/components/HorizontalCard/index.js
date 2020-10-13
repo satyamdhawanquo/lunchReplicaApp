@@ -104,7 +104,8 @@ const styles = StyleSheet.create({
   },
   bottomLineWithImage: {
     flexDirection: "row",
-    marginTop: 6
+    marginTop: 6,
+    alignItems:"center",
   }
 });
 
