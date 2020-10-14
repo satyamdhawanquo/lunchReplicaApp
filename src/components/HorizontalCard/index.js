@@ -8,24 +8,25 @@
 
 import React from 'react';
 import {View, StyleSheet, Image, Text} from 'react-native';
+import {today, pm, connectOverPizza, twoSpotLeft, lunchTitle, loc} from '../../constants';
 const HorizontalCard = () => {
   return (
     <>
       <View style={styles.container}>
         <View style={styles.imageBack}>
-          <Text style={styles.day}>Today</Text>
-          <Text style={styles.time}>2 PM</Text>
+  <Text style={styles.day}>{today}</Text>
+  <Text style={styles.time}>{pm}</Text>
         </View>
         <View style={styles.rightContainer}>
           <View style={styles.top}>
-            <Text style={styles.resLine}>Connect Over Pizza</Text>
-            <Text style={styles.spots}>2 spots left</Text>
+  <Text style={styles.resLine}>{connectOverPizza}</Text>
+  <Text style={styles.spots}>{twoSpotLeft}</Text>
           </View>
           <View style={styles.bottom}>
-            <Text style={styles.bottomLineWithOutPadding}>Lunch with Matt Demon</Text>
+  <Text style={styles.bottomLineWithOutPadding}>{lunchTitle}</Text>
             <View style={styles.bottomLineWithImage}>
               <Image source={require('../../../assets/images/location/location-in-card.png')} />
-              <Text style={styles.bottomLine}>Onley Avenue</Text>
+  <Text style={styles.bottomLine}>{loc}</Text>
             </View>
           </View>
         </View>
